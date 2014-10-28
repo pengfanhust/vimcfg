@@ -4,6 +4,7 @@ syntax on
 filetype plugin indent on
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+let NERDTreeShowHidden=1
 let g:nerdtree_tabs_open_console_startup=1
 map zn <plug>NERDTreeTabsToggle<CR>
 nnoremap th  :tabfirst<CR>
