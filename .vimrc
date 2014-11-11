@@ -2,9 +2,13 @@ execute pathogen#infect()
 call pathogen#helptags() "generate helptags for everything in ‘runtimepath’
 syntax on
 filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let g:nerdtree_tabs_open_console_startup=1
+let NERDTreeShowHidden=1
 map zn <plug>NERDTreeTabsToggle<CR>
 nnoremap th  :tabfirst<CR>
 nnoremap tj  :tabnext<CR>
