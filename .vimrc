@@ -7,6 +7,7 @@ set shiftwidth=4
 set softtabstop=4
 autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
+let NERDTreeShowHidden=1
 let g:nerdtree_tabs_open_console_startup=1
 let NERDTreeShowHidden=1
 map zn <plug>NERDTreeTabsToggle<CR>
